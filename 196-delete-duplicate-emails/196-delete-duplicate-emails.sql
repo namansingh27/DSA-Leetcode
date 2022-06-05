@@ -1,7 +1,7 @@
 # Please write a DELETE statement and DO NOT write a SELECT statement.
 # Write your MySQL query statement below
 
-delete pe2
-from Person pe1 join person pe2 
-on pe1.email=pe2.email
-and pe1.Id<pe2.Id 
+delete p2
+from Person p1 join person p2 
+on p1.email=p2.email
+and p1.Id<p2.Id 
